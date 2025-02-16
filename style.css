@@ -46,6 +46,7 @@ img {
 
 .products {
   display: flex;
+  align-items: flex-start;
   margin-bottom: 180px;
 }
 
