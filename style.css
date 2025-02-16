@@ -28,7 +28,9 @@ img {
 }
 
 .site-title a {
-  display: block;
+  display: inline-block;
+  background-color: black;
+  padding: 10px;
 }
 
 .site-title img {
@@ -77,6 +79,7 @@ img {
   bottom: -20px;
 }
 
+
 /* header */
 #header {
   width: 100%;
@@ -92,15 +95,9 @@ img {
 }
 
 
-/* #header h1 {
-  position: absolute;
-  box-shadow: 0 0 8px gray;
-} */
-
-/* #header nav {
-  position: absolute;
-  left: 1.5px;
-} */
+#nav a {
+  color: black;
+}
 
 #nav li {
   margin-left: 25px;
